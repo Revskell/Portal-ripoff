@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class GravityGun : MonoBehaviour
 {
-
+    [Header("Capacities")]
     [SerializeField] private float shootingPower = 5f;
     [SerializeField] private float range = 10f;
     private Transform oldParent;
     private GameObject hasPicked;
+
+    [Header("Audio")]
+    [SerializeField] private AudioClip pickUpSound = null;
+    [SerializeField] private AudioClip holdSound = null;
+    [SerializeField] private AudioClip shootSound = null;
 
     void Start()
     {
@@ -48,6 +53,7 @@ public class GravityGun : MonoBehaviour
 
     public void Adopt(GameObject o)
     {
+        AudioSource.PlayClipAtPoint(pickUpSound, transform.position);
         o.GetComponent<Rigidbody>().isKinematic = true;
         oldParent = o.transform.parent;
         o.transform.position = transform.position;
@@ -57,6 +63,7 @@ public class GravityGun : MonoBehaviour
 
     public void Release(GameObject o)
     {
+        AudioSource.PlayClipAtPoint(pickUpSound, transform.position);
         o.GetComponent<Rigidbody>().isKinematic = false;
         o.transform.parent = oldParent;
         hasPicked = null;
@@ -64,6 +71,7 @@ public class GravityGun : MonoBehaviour
 
     public void Shoot(GameObject o)
     {
+        AudioSource.PlayClipAtPoint(shootSound, transform.position);
         Release(o);
         o.GetComponent<Rigidbody>().velocity = transform.forward * shootingPower;
     }
