@@ -314,7 +314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66c5a3b888f31242899415e778d4804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlAntialiasing: 0
+  controlAntialiasing: 1
   enableAntialiasing: 0
   antialiasing:
     method: 0
@@ -325,7 +325,7 @@ MonoBehaviour:
       sharpen: 0
       stationaryBlending: 0
       motionBlending: 0
-  controlAmbientOcclusion: 0
+  controlAmbientOcclusion: 1
   enableAmbientOcclusion: 0
   ambientOcclusion:
     intensity: 0
@@ -335,7 +335,7 @@ MonoBehaviour:
     forceForwardCompatibility: 0
     ambientOnly: 0
     highPrecision: 0
-  controlScreenSpaceReflection: 0
+  controlScreenSpaceReflection: 1
   enableScreenSpaceReflection: 0
   screenSpaceReflection:
     reflection:
@@ -382,7 +382,7 @@ MonoBehaviour:
     speedDown: 0
     logMin: 0
     logMax: 0
-  controlBloom: 0
+  controlBloom: 1
   enableBloom: 0
   bloom:
     bloom:
