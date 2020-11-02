@@ -7,11 +7,14 @@ public class Switch : MonoBehaviour
 
     private bool InRange;
     private bool switched;
-    private GameObject spawn;
+    private GameObject CubeSpawn;
+    private GameObject ExplosionSpawn;
 
+    [Header("Settings")]
     [SerializeField] public bool Destructible = true;
     [SerializeField] public GameObject Spawner = null;
     [SerializeField] public GameObject Cube = null;
+    [SerializeField] public GameObject ExplosionEffect = null;
 
     [Header("Sounds")]
     [SerializeField] private AudioClip spawnCube = null;
@@ -25,7 +28,7 @@ public class Switch : MonoBehaviour
         switched = false;
     }
     
-    void Update()
+    void FixedUpdate()
     {
         if(InRange)
         {
@@ -46,17 +49,18 @@ public class Switch : MonoBehaviour
         if (!Destructible) Instantiate(Cube, null).transform.position = Spawner.transform.position;
         else
         {
-            if(spawn != null)
+            if(CubeSpawn != null)
             {
-                AudioSource.PlayClipAtPoint(deleteCube, spawn.transform.position);
-                Destroy(spawn.gameObject);
-                spawn = Instantiate(Cube, null);
-                spawn.transform.position = Spawner.transform.position;
+                AudioSource.PlayClipAtPoint(deleteCube, CubeSpawn.transform.position);
+                StartParticleSystem();
+                Destroy(CubeSpawn.gameObject);
+                CubeSpawn = Instantiate(Cube, null);
+                CubeSpawn.transform.position = Spawner.transform.position;
             }
             else
             {
-                spawn = Instantiate(Cube, null);
-                spawn.transform.position = Spawner.transform.position;
+                CubeSpawn = Instantiate(Cube, null);
+                CubeSpawn.transform.position = Spawner.transform.position;
             }
         }
         AudioSource.PlayClipAtPoint(spawnCube, Spawner.transform.position);
@@ -66,6 +70,19 @@ public class Switch : MonoBehaviour
     void PlayAudio() {
         AudioSource.PlayClipAtPoint(switchOff, transform.position);
         switched = false;
+    }
+
+    void StartParticleSystem()
+    {
+        ExplosionSpawn = Instantiate(ExplosionEffect, CubeSpawn.transform.position, CubeSpawn.transform.rotation);
+        ExplosionSpawn.GetComponent<ParticleSystem>().Play();
+        StartCoroutine(StopParticleSystem(ExplosionSpawn, 1));
+    }
+
+    IEnumerator StopParticleSystem(GameObject particleSystem, float time)
+    {
+        yield return new WaitForSeconds(time);
+        ExplosionSpawn.GetComponent<ParticleSystem>().Stop();
     }
 
     private void OnTriggerEnter(Collider other) { if (other.tag == "Player") InRange = true; }
