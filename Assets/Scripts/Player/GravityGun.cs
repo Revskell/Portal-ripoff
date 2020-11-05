@@ -36,7 +36,7 @@ public class GravityGun : MonoBehaviour
                         if(target.GetComponent<Turret>())
                         {
                             target.GetComponent<Turret>().PickUp(true);
-                            target.GetComponent<Turret>().PlaySound("PickUp");
+                            if(!target.GetComponent<Turret>().isDead()) target.GetComponent<Turret>().PlaySound("PickUp");
                         }
                         Adopt(target);
                     }

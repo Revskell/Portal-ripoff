@@ -12,6 +12,7 @@ public class Turret : MonoBehaviour
     private GameObject ExplosionSpawn;
 
     [SerializeField] public GameObject ExplosionEffect = null;
+    [SerializeField] public GameObject Light = null;
 
     [Header("Sounds")]
     [SerializeField] public List<AudioClip> DeathSounds = new List<AudioClip>();
@@ -32,6 +33,7 @@ public class Turret : MonoBehaviour
                 {
                     PlaySound("Death");
                     StartParticleSystem();
+                    Light.SetActive(false);
                     dead = true;
                 }
             }
@@ -44,6 +46,8 @@ public class Turret : MonoBehaviour
     }
 
     public void PickUp(bool pickUp) { hasBeenPicked = pickUp; }
+
+    public bool isDead() { return dead; }
 
     public void PlaySound(string type)
     {
