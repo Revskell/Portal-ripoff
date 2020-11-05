@@ -31,7 +31,15 @@ public class GravityGun : MonoBehaviour
                 if (Physics.Raycast(transform.parent.position, transform.forward, out hit, range))
                 {
                     GameObject target = hit.transform.gameObject;
-                    if (target.CompareTag("Pickable")) Adopt(target);
+                    if (target.CompareTag("Pickable"))
+                    {
+                        if(target.GetComponent<Turret>())
+                        {
+                            target.GetComponent<Turret>().PickUp(true);
+                            target.GetComponent<Turret>().PlaySound("PickUp");
+                        }
+                        Adopt(target);
+                    }
                 }
             } else Release(hasPicked);
         }
@@ -45,7 +53,7 @@ public class GravityGun : MonoBehaviour
                 if (Physics.Raycast(transform.parent.position, transform.forward, out hit, range))
                 {
                     GameObject target = hit.transform.gameObject;
-                    if (target.CompareTag("Pickable")) Shoot(target);
+                    if (target.CompareTag("Pickable")||target.CompareTag("Turret")) Shoot(target);
                 }
             }
         }
@@ -63,6 +71,7 @@ public class GravityGun : MonoBehaviour
 
     public void Release(GameObject o)
     {
+        if(o.GetComponent<Turret>()) o.GetComponent<Turret>().PickUp(false);
         AudioSource.PlayClipAtPoint(pickUpSound, transform.position);
         o.GetComponent<Rigidbody>().isKinematic = false;
         o.transform.parent = oldParent;
@@ -71,6 +80,7 @@ public class GravityGun : MonoBehaviour
 
     public void Shoot(GameObject o)
     {
+        if (o.GetComponent<Turret>()) o.GetComponent<Turret>().PickUp(false);
         AudioSource.PlayClipAtPoint(shootSound, transform.position);
         Release(o);
         o.GetComponent<Rigidbody>().velocity = transform.forward * shootingPower;

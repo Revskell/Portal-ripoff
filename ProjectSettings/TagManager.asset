@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pickable
   - Cube
+  - Turret
   layers:
   - Default
   - TransparentFX
