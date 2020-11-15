@@ -48,7 +48,7 @@ public class PortalGun : MonoBehaviour
 
     private void ShootPortal(bool orangeOrBlue)
     {
-        if (Physics.Raycast(player.position, player.forward, out RaycastHit hit, 300f, layerMask))
+        if (Physics.Raycast(player.position, player.forward, out RaycastHit hit, 1000f, layerMask))
         {
             GameObject target = hit.transform.gameObject;
             if (target.CompareTag("Portable")) PlacePortal(orangeOrBlue, CorrectPlacement(hit.point, target, orangeOrBlue, hit.normal), hit.normal);

@@ -29,17 +29,22 @@ public class Character_controller : MonoBehaviour
     [SerializeField] float mHalfJump = 4.0f;
     [SerializeField] [Range(0f, 2f)] float mAirControl = 0.75f;
     [SerializeField] [Range(0f, 1f)] float mInertia = 0.5f;
-    
+
+    private Player player;
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        player = GetComponentInParent<Player>();
     }
     
     void Update()
     {
-        Rotate(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
-        Move();
+        if(!player.isDead())
+        {
+            Rotate(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+            Move();
+        }        
     }
 
     private void Rotate(float mouseAxisX, float mouseAxisY)

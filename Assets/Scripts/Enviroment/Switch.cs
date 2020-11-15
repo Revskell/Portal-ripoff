@@ -83,6 +83,7 @@ public class Switch : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         ExplosionSpawn.GetComponent<ParticleSystem>().Stop();
+        Destroy(ExplosionSpawn);
     }
 
     private void OnTriggerEnter(Collider other) { if (other.tag == "Player") InRange = true; }

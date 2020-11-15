@@ -52,7 +52,7 @@ public class GravityGun : MonoBehaviour
                 if (Physics.Raycast(transform.parent.position, transform.forward, out RaycastHit hit, range, layerMask))
                 {
                     GameObject target = hit.transform.gameObject;
-                    if (target.CompareTag("Pickable") || target.CompareTag("Turret")) Shoot(target);
+                    if (target.CompareTag("Pickable")) Shoot(target);
                 }
             }
         }

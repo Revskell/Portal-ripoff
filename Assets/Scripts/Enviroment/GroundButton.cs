@@ -5,8 +5,32 @@ using UnityEngine;
 public class GroundButton : MonoBehaviour
 {
 
-    private void OnTriggerEnter(Collider other)
+    [SerializeField] private Animator anim = null;
+    [SerializeField] private GameObject Door = null;
+    [SerializeField] private AudioClip openDoorSound = null;
+    [SerializeField] private AudioClip closeDoorSound = null;
+
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.transform.parent.CompareTag("Cube")) Debug.Log("Switched");
+        if (collision.transform.CompareTag("Pickable"))
+        {
+            if(collision.gameObject.name.Contains("Cube"))
+            {
+                anim.SetBool("Open", true);
+                AudioSource.PlayClipAtPoint(openDoorSound, Door.transform.position);
+            }
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.transform.CompareTag("Pickable"))
+        {
+            if (collision.gameObject.name.Contains("Cube"))
+            {
+                anim.SetBool("Open", false);
+                AudioSource.PlayClipAtPoint(closeDoorSound, Door.transform.position);
+            }
+        }
     }
 }

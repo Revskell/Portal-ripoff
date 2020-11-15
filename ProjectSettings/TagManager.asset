@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Portable
   - Pickable
-  - Turret
   layers:
   - Default
   - TransparentFX
