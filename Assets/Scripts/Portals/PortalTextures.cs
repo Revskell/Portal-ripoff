@@ -5,13 +5,13 @@ using UnityEngine;
 public class PortalTextures : MonoBehaviour
 {
 
-    [SerializeField] private Camera otherCam = null;
-    [SerializeField] private Material otherMat = null;
+    [SerializeField] private Camera thisCam = null;
+    [SerializeField] private Material thisMat = null;
 
-    void Start()
+    void Awake()
     {
-        if (otherCam.targetTexture != null) otherCam.targetTexture.Release();
-        otherCam.targetTexture = new RenderTexture(Screen.width, Screen.height, 24);
-        otherMat.mainTexture = otherCam.targetTexture;
+        if (thisCam.targetTexture != null) thisCam.targetTexture.Release();
+        thisCam.targetTexture = new RenderTexture(Screen.width, Screen.height, 24);
+        thisMat.mainTexture = thisCam.targetTexture;
     }
 }

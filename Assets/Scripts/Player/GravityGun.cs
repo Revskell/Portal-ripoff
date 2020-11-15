@@ -12,7 +12,6 @@ public class GravityGun : MonoBehaviour
 
     [Header("Audio")]
     [SerializeField] private AudioClip pickUpSound = null;
-    [SerializeField] private AudioClip holdSound = null;
     [SerializeField] private AudioClip shootSound = null;
 
     void Start()
@@ -26,9 +25,9 @@ public class GravityGun : MonoBehaviour
         {
             if(hasPicked == null)
             {
-                RaycastHit hit;
-
-                if (Physics.Raycast(transform.parent.position, transform.forward, out hit, range))
+                int layerMask = 1 << 8;
+                layerMask = ~layerMask;
+                if (Physics.Raycast(transform.parent.position, transform.forward, out RaycastHit hit, range, layerMask))
                 {
                     GameObject target = hit.transform.gameObject;
                     if (target.CompareTag("Pickable"))
@@ -48,9 +47,9 @@ public class GravityGun : MonoBehaviour
             if (hasPicked != null) Shoot(hasPicked);
             else
             {
-                RaycastHit hit;
-
-                if (Physics.Raycast(transform.parent.position, transform.forward, out hit, range))
+                int layerMask = 1 << 8;
+                layerMask = ~layerMask;
+                if (Physics.Raycast(transform.parent.position, transform.forward, out RaycastHit hit, range, layerMask))
                 {
                     GameObject target = hit.transform.gameObject;
                     if (target.CompareTag("Pickable")||target.CompareTag("Turret")) Shoot(target);

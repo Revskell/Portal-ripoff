@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 1375126635366035703}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 1375126635404417462}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -196,6 +196,7 @@ MonoBehaviour:
   mPitchSpeed: 2
   mMinPitch: -90
   mMaxPitch: 90
+  mYaw: 0
   mCharacterController: {fileID: 1375126635404417463}
   mSpeed: 5
   mRunMultiplier: 2
@@ -621,7 +622,6 @@ MonoBehaviour:
   shootingPower: 20
   range: 5
   pickUpSound: {fileID: 8300000, guid: d40c4966591446747a667875a516497b, type: 3}
-  holdSound: {fileID: 8300000, guid: df5ab094633fb5b40aad9dd18fa27b8d, type: 3}
   shootSound: {fileID: 8300000, guid: a9ded8f170ddaab40943089c21649ae1, type: 3}
 --- !u!1 &7086920141840417563
 GameObject:
@@ -634,6 +634,8 @@ GameObject:
   - component: {fileID: 2085134931690491936}
   - component: {fileID: 3762982270530070890}
   - component: {fileID: 368580835007958526}
+  - component: {fileID: 1955805463362589887}
+  - component: {fileID: 7506465013526096848}
   m_Layer: 0
   m_Name: Portal Gun
   m_TagString: Untagged
@@ -705,3 +707,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1955805463362589887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7086920141840417563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7722085d2c6f79146b93dd8d46bd1085, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orangePortal: {fileID: 0}
+  bluePortal: {fileID: 0}
+--- !u!95 &7506465013526096848
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7086920141840417563}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f64f5c7d5c2837c49a38b15d3701361c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

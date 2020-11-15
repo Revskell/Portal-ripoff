@@ -6,12 +6,15 @@
       "source": "builtin",
       "dependencies": {}
     },
+<<<<<<< Updated upstream
     "com.unity.2d.tilemap": {
       "version": "1.0.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {}
     },
+=======
+>>>>>>> Stashed changes
     "com.unity.collab-proxy": {
       "version": "1.3.9",
       "depth": 0,

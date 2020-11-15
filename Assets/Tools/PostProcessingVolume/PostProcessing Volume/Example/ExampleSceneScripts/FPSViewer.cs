@@ -7,18 +7,18 @@ using Random = UnityEngine.Random;
     [RequireComponent(typeof (CharacterController))]
     public class FPSViewer : MonoBehaviour
     {
-        [SerializeField] private bool m_IsWalking;
-        [SerializeField] private float m_WalkSpeed;
-        [SerializeField] private float m_RunSpeed;
-        [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
-        [SerializeField] private float m_JumpSpeed;
-        [SerializeField] private float m_StickToGroundForce;
-        [SerializeField] private float m_GravityMultiplier;
-        [SerializeField] private bool m_UseFovKick;
-        [SerializeField] private bool m_UseHeadBob;
-        [SerializeField] private float m_StepInterval;
+        [SerializeField] private bool m_IsWalking = false;
+        [SerializeField] private float m_WalkSpeed = 0f;
+        [SerializeField] private float m_RunSpeed = 0f;
+        [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten = 0f;
+        [SerializeField] private float m_JumpSpeed = 0f;
+        [SerializeField] private float m_StickToGroundForce = 0f;
+        [SerializeField] private float m_GravityMultiplier = 0f;
+        [SerializeField] private bool m_UseFovKick = false;
+        [SerializeField] private bool m_UseHeadBob = false;
+        [SerializeField] private float m_StepInterval = 0f;
        
-        [SerializeField] private Camera m_Camera;
+        [SerializeField] private Camera m_Camera = null;
         private bool m_Jump;
         private float m_YRotation;
         private Vector2 m_Input;

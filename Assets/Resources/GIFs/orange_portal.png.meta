@@ -1,0 +1,922 @@
+fileFormatVersion: 2
+guid: 8e4e782e6b483aa40aba18210fec0b4c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2529698181160033554
+    second: orange_portal_0
+  - first:
+      213: 3577396760170538446
+    second: orange_portal_1
+  - first:
+      213: 1190083424434352144
+    second: orange_portal_2
+  - first:
+      213: 4110875758960610801
+    second: orange_portal_3
+  - first:
+      213: -6615414212959973815
+    second: orange_portal_4
+  - first:
+      213: 431054328012893886
+    second: orange_portal_5
+  - first:
+      213: -2794410235023426167
+    second: orange_portal_6
+  - first:
+      213: -796232106441776872
+    second: orange_portal_7
+  - first:
+      213: 5813897994982732495
+    second: orange_portal_8
+  - first:
+      213: -6369660357160562196
+    second: orange_portal_9
+  - first:
+      213: 1761458981407527467
+    second: orange_portal_10
+  - first:
+      213: -448536012537915335
+    second: orange_portal_11
+  - first:
+      213: -1353669890837796966
+    second: orange_portal_12
+  - first:
+      213: -8033790637845643744
+    second: orange_portal_13
+  - first:
+      213: -1913232975098364572
+    second: orange_portal_14
+  - first:
+      213: -4296281457330432550
+    second: orange_portal_15
+  - first:
+      213: -5495826581549281430
+    second: orange_portal_16
+  - first:
+      213: -3912926276060243167
+    second: orange_portal_17
+  - first:
+      213: 1356681704963870866
+    second: orange_portal_18
+  - first:
+      213: 5326184587150737358
+    second: orange_portal_19
+  - first:
+      213: 8380058301738507780
+    second: orange_portal_20
+  - first:
+      213: 4259847852716475104
+    second: orange_portal_21
+  - first:
+      213: 9043314628619960970
+    second: orange_portal_22
+  - first:
+      213: 7439778743018971226
+    second: orange_portal_23
+  - first:
+      213: 3040259842432857683
+    second: orange_portal_24
+  - first:
+      213: -7651641904514712797
+    second: orange_portal_25
+  - first:
+      213: 7882337492872711396
+    second: orange_portal_26
+  - first:
+      213: 4624015814338469518
+    second: orange_portal_27
+  - first:
+      213: -7129806985053088612
+    second: orange_portal_28
+  - first:
+      213: 5812435340627710303
+    second: orange_portal_29
+  - first:
+      213: -145199835242565241
+    second: orange_portal_30
+  - first:
+      213: 6284871536947674827
+    second: orange_portal_31
+  - first:
+      213: 6758907124203999062
+    second: orange_portal_32
+  - first:
+      213: -4971643561876319328
+    second: orange_portal_33
+  - first:
+      213: -5861541474721397521
+    second: orange_portal_34
+  - first:
+      213: 6613854326265300741
+    second: orange_portal_35
+  - first:
+      213: 6205169801668766861
+    second: orange_portal_36
+  - first:
+      213: 165340874473544184
+    second: orange_portal_37
+  - first:
+      213: 4059239337409044061
+    second: orange_portal_38
+  - first:
+      213: -2739721505946217715
+    second: orange_portal_39
+  - first:
+      213: 3193651154275600749
+    second: orange_portal_40
+  - first:
+      213: -2907195177283313919
+    second: orange_portal_41
+  - first:
+      213: 2777508676571618203
+    second: orange_portal_42
+  - first:
+      213: -3488716691080108496
+    second: orange_portal_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orange_portal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2632
+        width: 250
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2210b38e4b4ecd0800000000000000
+      internalID: -2529698181160033554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2626
+        width: 251
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd8c90f8b3cc0930800000000000000
+      internalID: 4110875758960610801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_4
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2633
+        width: 255
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e4372c2d35134a0800000000000000
+      internalID: -6615414212959973815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_5
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 2626
+        width: 254
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe6a14a0a96bf500800000000000000
+      internalID: 431054328012893886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_6
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 2627
+        width: 251
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d76b852b24839d0800000000000000
+      internalID: -2794410235023426167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_7
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 2626
+        width: 249
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811e6c82e1733f4f0800000000000000
+      internalID: -796232106441776872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_8
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 2629
+        width: 251
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc23d4f4c6d1fa050800000000000000
+      internalID: 5813897994982732495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_9
+      rect:
+        serializedVersion: 2
+        x: 2755
+        y: 2626
+        width: 245
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce19e8f27ab6a97a0800000000000000
+      internalID: -6369660357160562196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2229
+        width: 251
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2297396c95f17810800000000000000
+      internalID: 1761458981407527467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_11
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2232
+        width: 251
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93815bf7fda76c9f0800000000000000
+      internalID: -448536012537915335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_13
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2232
+        width: 252
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ef95fcafd328090800000000000000
+      internalID: -8033790637845643744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_14
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 2232
+        width: 259
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46db2b2feb4d275e0800000000000000
+      internalID: -1913232975098364572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_15
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 2226
+        width: 257
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5d8b8f6ca8064c0800000000000000
+      internalID: -4296281457330432550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_16
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2224
+        width: 258
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f0b9b97d6eab3b0800000000000000
+      internalID: -5495826581549281430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_17
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 2226
+        width: 250
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b1323984e72b9c0800000000000000
+      internalID: -3912926276060243167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_18
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 2226
+        width: 247
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29094a992d6e3d210800000000000000
+      internalID: 1356681704963870866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1833
+        width: 251
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a828cfebdbe408d70800000000000000
+      internalID: 9043314628619960970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_23
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1833
+        width: 249
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50e52169576f3760800000000000000
+      internalID: 7439778743018971226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_24
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1827
+        width: 251
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356781df73c213a20800000000000000
+      internalID: 3040259842432857683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_25
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1833
+        width: 259
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b38ec5a38efc590800000000000000
+      internalID: -7651641904514712797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_26
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1833
+        width: 258
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eccb66ff20b36d60800000000000000
+      internalID: 7882337492872711396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_28
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 1826
+        width: 259
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94dfca8256dd0d90800000000000000
+      internalID: -7129806985053088612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_29
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 1826
+        width: 253
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f519a0e852be9a050800000000000000
+      internalID: 5812435340627710303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_30
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1826
+        width: 250
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781fbe6e4852cfdf0800000000000000
+      internalID: -145199835242565241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1410
+        width: 248
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ca277ee013d1650800000000000000
+      internalID: 6205169801668766861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_37
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1411
+        width: 247
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f919d936a86b4200800000000000000
+      internalID: 165340874473544184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_38
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1412
+        width: 250
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ede8caba0555830800000000000000
+      internalID: 4059239337409044061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_39
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1411
+        width: 250
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03d3965ecd8af9d0800000000000000
+      internalID: -2739721505946217715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_40
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1410
+        width: 252
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d690d1bddc0225c20800000000000000
+      internalID: 3193651154275600749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_41
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 1417
+        width: 254
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f9c45a36197a7d0800000000000000
+      internalID: -2907195177283313919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_42
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 1406
+        width: 253
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bdd9bec61bb8620800000000000000
+      internalID: 2777508676571618203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange_portal_43
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 1410
+        width: 254
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036a13a47a6959fc0800000000000000
+      internalID: -3488716691080108496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 59831161e9f87a64cba319c93c6e36f2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

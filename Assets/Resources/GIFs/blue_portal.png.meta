@@ -1,0 +1,1816 @@
+fileFormatVersion: 2
+guid: 76bf9408bf2c1144bba0a8992bfca71f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4313986502177742192
+    second: blue_portal_0
+  - first:
+      213: -5875117157895511089
+    second: blue_portal_1
+  - first:
+      213: 7421320674172130930
+    second: blue_portal_2
+  - first:
+      213: 8987415669081843997
+    second: blue_portal_3
+  - first:
+      213: -9189761281288586618
+    second: blue_portal_4
+  - first:
+      213: -7755378129685269023
+    second: blue_portal_5
+  - first:
+      213: 5596759048639665738
+    second: blue_portal_6
+  - first:
+      213: 8775725559664137900
+    second: blue_portal_7
+  - first:
+      213: -7687939049012601864
+    second: blue_portal_8
+  - first:
+      213: 8743579953138240847
+    second: blue_portal_9
+  - first:
+      213: 7578335088425719782
+    second: blue_portal_10
+  - first:
+      213: -4821438263959254916
+    second: blue_portal_11
+  - first:
+      213: 7237176610851738169
+    second: blue_portal_12
+  - first:
+      213: -6582872275817266803
+    second: blue_portal_13
+  - first:
+      213: 3549585455545227061
+    second: blue_portal_14
+  - first:
+      213: 797519356517593565
+    second: blue_portal_15
+  - first:
+      213: 8254598178609490615
+    second: blue_portal_16
+  - first:
+      213: -1935383530131009909
+    second: blue_portal_17
+  - first:
+      213: 4501058152093102403
+    second: blue_portal_18
+  - first:
+      213: -5964312869728229458
+    second: blue_portal_19
+  - first:
+      213: 4413045178854970584
+    second: blue_portal_20
+  - first:
+      213: 5858295976588597771
+    second: blue_portal_21
+  - first:
+      213: -691309499400895925
+    second: blue_portal_22
+  - first:
+      213: -8826870278629707358
+    second: blue_portal_23
+  - first:
+      213: -6130696429377765006
+    second: blue_portal_24
+  - first:
+      213: -622818835217619494
+    second: blue_portal_25
+  - first:
+      213: 8565488933843554892
+    second: blue_portal_26
+  - first:
+      213: 6534692528565631688
+    second: blue_portal_27
+  - first:
+      213: -6405776677229155219
+    second: blue_portal_28
+  - first:
+      213: -8844767397123444268
+    second: blue_portal_29
+  - first:
+      213: -680700819157928455
+    second: blue_portal_30
+  - first:
+      213: -366161613052286078
+    second: blue_portal_31
+  - first:
+      213: -6955884114221643958
+    second: blue_portal_32
+  - first:
+      213: 5739944214414087902
+    second: blue_portal_33
+  - first:
+      213: 482590664269801137
+    second: blue_portal_34
+  - first:
+      213: -3949033820293861526
+    second: blue_portal_35
+  - first:
+      213: 2054082603032485280
+    second: blue_portal_36
+  - first:
+      213: 5885157520558924823
+    second: blue_portal_37
+  - first:
+      213: -2245038733450611421
+    second: blue_portal_38
+  - first:
+      213: -6673654584713103996
+    second: blue_portal_39
+  - first:
+      213: -7287230428260534889
+    second: blue_portal_40
+  - first:
+      213: -4215558093208792510
+    second: blue_portal_41
+  - first:
+      213: -7363054861808301514
+    second: blue_portal_42
+  - first:
+      213: -5513094134451289280
+    second: blue_portal_43
+  - first:
+      213: -6351403072441644314
+    second: blue_portal_44
+  - first:
+      213: -8131349296654592099
+    second: blue_portal_45
+  - first:
+      213: 7929017183355932553
+    second: blue_portal_46
+  - first:
+      213: 2585774920605890918
+    second: blue_portal_47
+  - first:
+      213: 7959402479227982935
+    second: blue_portal_48
+  - first:
+      213: 8052879502350943975
+    second: blue_portal_49
+  - first:
+      213: -5339975149555996799
+    second: blue_portal_50
+  - first:
+      213: 1944406230227655386
+    second: blue_portal_51
+  - first:
+      213: 7272765861608319132
+    second: blue_portal_52
+  - first:
+      213: 7186173727783692988
+    second: blue_portal_53
+  - first:
+      213: 4137433192649903735
+    second: blue_portal_54
+  - first:
+      213: 6456113616177908523
+    second: blue_portal_55
+  - first:
+      213: 4604963313718665373
+    second: blue_portal_56
+  - first:
+      213: -5658366637274660414
+    second: blue_portal_57
+  - first:
+      213: -4677718523145510319
+    second: blue_portal_58
+  - first:
+      213: 4947106355120121078
+    second: blue_portal_59
+  - first:
+      213: -8105509708736836005
+    second: blue_portal_60
+  - first:
+      213: 7024886737019152876
+    second: blue_portal_61
+  - first:
+      213: 879585625860912534
+    second: blue_portal_62
+  - first:
+      213: 5744820493647078098
+    second: blue_portal_63
+  - first:
+      213: 3899201641560965365
+    second: blue_portal_64
+  - first:
+      213: -6107607114832678697
+    second: blue_portal_65
+  - first:
+      213: -1125963950681691360
+    second: blue_portal_66
+  - first:
+      213: -6945764888410355778
+    second: blue_portal_67
+  - first:
+      213: 300443858619033044
+    second: blue_portal_68
+  - first:
+      213: -3594193568885205098
+    second: blue_portal_69
+  - first:
+      213: 4392894690866489525
+    second: blue_portal_70
+  - first:
+      213: 3279254667584406735
+    second: blue_portal_71
+  - first:
+      213: 476772947980206608
+    second: blue_portal_72
+  - first:
+      213: 2768959854286852768
+    second: blue_portal_73
+  - first:
+      213: -5862685914241776333
+    second: blue_portal_74
+  - first:
+      213: 1458745558386683238
+    second: blue_portal_75
+  - first:
+      213: -1833854361231888709
+    second: blue_portal_76
+  - first:
+      213: 5655190306325049166
+    second: blue_portal_77
+  - first:
+      213: -5220294263566567080
+    second: blue_portal_78
+  - first:
+      213: 5796331927463976644
+    second: blue_portal_79
+  - first:
+      213: 745260488122937551
+    second: blue_portal_80
+  - first:
+      213: 7224352236770047218
+    second: blue_portal_81
+  - first:
+      213: 1626678157022976236
+    second: blue_portal_82
+  - first:
+      213: 3252697754546785732
+    second: blue_portal_83
+  - first:
+      213: -6139137587060751769
+    second: blue_portal_84
+  - first:
+      213: 8810024262496589687
+    second: blue_portal_85
+  - first:
+      213: -7779219826598996660
+    second: blue_portal_86
+  - first:
+      213: 2291353200207472958
+    second: blue_portal_87
+  - first:
+      213: 3059624973831452700
+    second: blue_portal_88
+  - first:
+      213: -9190514379583640222
+    second: blue_portal_89
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blue_portal_0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 3002
+        width: 249
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092addbf124a124c0800000000000000
+      internalID: -4313986502177742192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_1
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 3000
+        width: 248
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3e5d59214677ea0800000000000000
+      internalID: -5875117157895511089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_2
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 3000
+        width: 250
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276da4455d3ddf660800000000000000
+      internalID: 7421320674172130930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_3
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 3000
+        width: 250
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1927640fe6b9bc70800000000000000
+      internalID: 8987415669081843997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_4
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 3003
+        width: 250
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ab72addc8677080800000000000000
+      internalID: -9189761281288586618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_5
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 3007
+        width: 250
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5b6494eac5f5490800000000000000
+      internalID: -7755378129685269023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_7
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 2997
+        width: 251
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6d81696e3a9c970800000000000000
+      internalID: 8775725559664137900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_8
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 2997
+        width: 251
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbdfb8da24fe4590800000000000000
+      internalID: -7687939049012601864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_9
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2624
+        width: 249
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d080454af675970800000000000000
+      internalID: 8743579953138240847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_10
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 2626
+        width: 244
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e75e767c97ab2960800000000000000
+      internalID: 7578335088425719782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 2618
+        width: 244
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c788b3aa17fc61db0800000000000000
+      internalID: -4821438263959254916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_12
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 2621
+        width: 242
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932559a88cd9f6460800000000000000
+      internalID: 7237176610851738169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_13
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 2613
+        width: 244
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81052eea80f4a4a0800000000000000
+      internalID: -6582872275817266803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_15
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 2606
+        width: 246
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1baba11ab511b00800000000000000
+      internalID: 797519356517593565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_16
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 2600
+        width: 246
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7baea970f493e8270800000000000000
+      internalID: 8254598178609490615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_17
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 2595
+        width: 249
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e4666fee22425e0800000000000000
+      internalID: -1935383530131009909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_20
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2224
+        width: 249
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4966775394e3d30800000000000000
+      internalID: 4413045178854970584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_21
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2217
+        width: 249
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ad9a1f629dc4150800000000000000
+      internalID: 5858295976588597771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_23
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 2211
+        width: 248
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1b2d39f38a08580800000000000000
+      internalID: -8826870278629707358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_24
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 2206
+        width: 250
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271ce2d44146beaa0800000000000000
+      internalID: -6130696429377765006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_25
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 2198
+        width: 249
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad56e67b19d4b57f0800000000000000
+      internalID: -622818835217619494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_26
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 2191
+        width: 250
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42d84dadcabed670800000000000000
+      internalID: 8565488933843554892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_27
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 2184
+        width: 247
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cabd818b34efaa50800000000000000
+      internalID: 6534692528565631688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_28
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 2178
+        width: 248
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c26432d0c1a17a0800000000000000
+      internalID: -6405776677229155219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_32
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1835
+        width: 242
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a474901804cb77f90800000000000000
+      internalID: -6955884114221643958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_34
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1832
+        width: 245
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6a8bbf6a182b600800000000000000
+      internalID: 482590664269801137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_35
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1807
+        width: 239
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f616fc9a63239c0800000000000000
+      internalID: -3949033820293861526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_36
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1799
+        width: 243
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad9f059e31918c10800000000000000
+      internalID: 2054082603032485280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_37
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1791
+        width: 244
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714222485974ca150800000000000000
+      internalID: 5885157520558924823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_38
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 1797
+        width: 245
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325fea9aa2508d0e0800000000000000
+      internalID: -2245038733450611421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_39
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 1789
+        width: 247
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485b484838a6263a0800000000000000
+      internalID: -6673654584713103996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_40
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 1782
+        width: 247
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795fc1fe88e8eda90800000000000000
+      internalID: -7287230428260534889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1426
+        width: 250
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a04344d9c21d990800000000000000
+      internalID: -7363054861808301514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_43
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1410
+        width: 249
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043cdb6281e8d73b0800000000000000
+      internalID: -5513094134451289280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_44
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1403
+        width: 251
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea8ac98e884bd7a0800000000000000
+      internalID: -6351403072441644314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_45
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 1397
+        width: 250
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97d74c75e4a72f80800000000000000
+      internalID: -8131349296654592099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_46
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1407
+        width: 247
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f06e75e17890e60800000000000000
+      internalID: 7929017183355932553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_48
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 1393
+        width: 244
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7545fb6526a757e60800000000000000
+      internalID: 7959402479227982935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_49
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1388
+        width: 246
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e607accd3391cf60800000000000000
+      internalID: 8052879502350943975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_50
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 1392
+        width: 242
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1872d45d4e894e5b0800000000000000
+      internalID: -5339975149555996799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_53
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1023
+        width: 242
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbaaac27eea6ab360800000000000000
+      internalID: 7186173727783692988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_54
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1018
+        width: 239
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ecec1519d1b6930800000000000000
+      internalID: 4137433192649903735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_55
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1011
+        width: 245
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bc8d1c029b89950800000000000000
+      internalID: 6456113616177908523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_56
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 1004
+        width: 244
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9028e55cbd18ef30800000000000000
+      internalID: 4604963313718665373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_57
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 998
+        width: 244
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c18250d5817971b0800000000000000
+      internalID: -5658366637274660414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_59
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 990
+        width: 248
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f42303e407a7a440800000000000000
+      internalID: 4947106355120121078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_60
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 995
+        width: 251
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ec24f5dd1738f80800000000000000
+      internalID: -8105509708736836005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_61
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 983
+        width: 249
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9216394496d7160800000000000000
+      internalID: 7024886737019152876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_63
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 556
+        width: 250
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2e7363dc3b9bf40800000000000000
+      internalID: 5744820493647078098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_64
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 555
+        width: 250
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f08cd0fb3fbc1630800000000000000
+      internalID: 3899201641560965365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_65
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 548
+        width: 247
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0ffb440bb6d3ba0800000000000000
+      internalID: -6107607114832678697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_66
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 547
+        width: 251
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02be8b1a0c5cf50f0800000000000000
+      internalID: -1125963950681691360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_67
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 545
+        width: 248
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb78bec52afab9f90800000000000000
+      internalID: -6945764888410355778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_68
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 541
+        width: 247
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d56febf8146b2400800000000000000
+      internalID: 300443858619033044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_70
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 541
+        width: 245
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8ebc06272b6fc30800000000000000
+      internalID: 4392894690866489525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_71
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 522
+        width: 245
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc40965feb0428d20800000000000000
+      internalID: 3279254667584406735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_72
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 522
+        width: 242
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01240ea5876dd9600800000000000000
+      internalID: 476772947980206608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_73
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 548
+        width: 244
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2d51021525d6620800000000000000
+      internalID: 2768959854286852768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_77
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 54
+        width: 255
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4facb10f954b7e40800000000000000
+      internalID: 5655190306325049166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_78
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 77
+        width: 249
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859fa1d860acd87b0800000000000000
+      internalID: -5220294263566567080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_79
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 77
+        width: 252
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cedeb08d25b07050800000000000000
+      internalID: 5796331927463976644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_80
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 56
+        width: 251
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0b3b32772b75a00800000000000000
+      internalID: 745260488122937551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_81
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 57
+        width: 252
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f43af4451e024460800000000000000
+      internalID: 7224352236770047218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_82
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 55
+        width: 251
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8dd315a2f139610800000000000000
+      internalID: 1626678157022976236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_83
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 41
+        width: 250
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdc87dcf57e32d20800000000000000
+      internalID: 3252697754546785732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_84
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 49
+        width: 247
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762ceff14e66dcaa0800000000000000
+      internalID: -6139137587060751769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_86
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 47
+        width: 249
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4514e5a8c8aa0490800000000000000
+      internalID: -7779219826598996660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_portal_87
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 49
+        width: 248
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39225178958ccf10800000000000000
+      internalID: 2291353200207472958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 263182dbbc422054bbc7c4e0f9166be2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

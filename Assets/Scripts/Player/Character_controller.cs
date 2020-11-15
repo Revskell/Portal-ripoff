@@ -11,7 +11,7 @@ public class Character_controller : MonoBehaviour
     [SerializeField] float mPitchSpeed = 2.0f;
     [SerializeField] [Range(-90, 0)] float mMinPitch = -90.0f;
     [SerializeField] [Range(0, 90f)] float mMaxPitch = 90.0f;
-    private float mYaw = 0.0f;
+    public float mYaw = 0.0f;
     private float mPitch = 0.0f;
 
     [Header("Moving")]
@@ -22,7 +22,7 @@ public class Character_controller : MonoBehaviour
     private bool mOnGround = false;
     private bool mContactAbove = false;
     private bool mSprinting = false;
-    private Vector3 mMomentum = new Vector3();
+    public Vector3 mMomentum = new Vector3();
 
     [Header("Jumping")]
     [SerializeField] float mJumpHeight = 2.0f;

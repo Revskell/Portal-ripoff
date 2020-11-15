@@ -4,19 +4,25 @@ using UnityEngine;
 
 public class PortalCam : MonoBehaviour
 {
-
-    [SerializeField] private Transform portal = null;
+    [SerializeField] public Transform otherCam = null;
     [SerializeField] private Transform otherPortal = null;
+    [SerializeField] private Transform portal = null;
     private Transform player;
+    private Camera thisCam;
 
-    void Start()
+    void Awake()
     {
         player = Camera.main.transform;
+        thisCam = GetComponent<Camera>();
     }
 
     void Update()
     {
-        transform.position = portal.position + (player.position - otherPortal.position);
-        transform.rotation = Quaternion.LookRotation(Quaternion.AngleAxis(Quaternion.Angle(portal.rotation, otherPortal.rotation), Vector3.up) * player.forward, Vector3.up);
+        thisCam.nearClipPlane = Vector3.Distance(transform.position, portal.position) + 0.6f;
+        otherCam.position = RelativePosition(player.position);
+        otherCam.forward = RelativeRotation(player.forward);
     }
+
+    public Vector3 RelativePosition(Vector3 targetPos) { return otherPortal.TransformPoint(portal.InverseTransformPoint(targetPos)); }
+    public Vector3 RelativeRotation(Vector3 targetForward) { return otherPortal.TransformDirection(portal.InverseTransformDirection(targetForward)); }
 }
