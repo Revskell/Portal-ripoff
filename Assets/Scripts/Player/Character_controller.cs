@@ -29,7 +29,7 @@ public class Character_controller : MonoBehaviour
     [SerializeField] float mHalfJump = 4.0f;
     [SerializeField] [Range(0f, 2f)] float mAirControl = 0.75f;
     [SerializeField] [Range(0f, 1f)] float mInertia = 0.5f;
-
+    
 
     void Start()
     {
@@ -69,11 +69,11 @@ public class Character_controller : MonoBehaviour
         else mMomentum = lMovement;
         //gravity lol
         mVerticalSpeed -= Time.deltaTime * 2 * mJumpHeight * mSpeed * mRunMultiplier * mSpeed * mRunMultiplier / Mathf.Pow(mHalfJump, 2);
+        mVerticalSpeed = Mathf.Max(mVerticalSpeed, Physics.gravity.y * 4f);
         lMovement.y += mVerticalSpeed * Time.deltaTime;
 
         CollisionFlags collisions = mCharacterController.Move(lMovement);
-
-        mOnGround = (collisions & CollisionFlags.Below) != 0;
+        mOnGround = ((collisions & CollisionFlags.Below) != 0) && !Physics.Raycast(transform.position, Vector3.down, 1f, LayerMask.GetMask("Portal"));
         if (mContactAbove && mVerticalSpeed > 0.0f) mVerticalSpeed = 0.0f;
         if (mOnGround)
         {

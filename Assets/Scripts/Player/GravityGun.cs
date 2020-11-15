@@ -8,7 +8,7 @@ public class GravityGun : MonoBehaviour
     [SerializeField] private float shootingPower = 5f;
     [SerializeField] private float range = 10f;
     private Transform oldParent;
-    private GameObject hasPicked;
+    public GameObject hasPicked;
 
     [Header("Audio")]
     [SerializeField] private AudioClip pickUpSound = null;
@@ -19,7 +19,7 @@ public class GravityGun : MonoBehaviour
         hasPicked = null;
     }
 
-    void Update()
+    void LateUpdate()
     {
         if(Input.GetKeyDown(KeyCode.F))
         {
@@ -52,10 +52,11 @@ public class GravityGun : MonoBehaviour
                 if (Physics.Raycast(transform.parent.position, transform.forward, out RaycastHit hit, range, layerMask))
                 {
                     GameObject target = hit.transform.gameObject;
-                    if (target.CompareTag("Pickable")||target.CompareTag("Turret")) Shoot(target);
+                    if (target.CompareTag("Pickable") || target.CompareTag("Turret")) Shoot(target);
                 }
             }
         }
+        if (Input.GetMouseButtonDown(1) && hasPicked != null) Release(hasPicked);
     }
 
     public void Adopt(GameObject o)

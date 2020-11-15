@@ -4,13 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Pickable
-<<<<<<< Updated upstream
-  - Cube
-  - Turret
-=======
   - Portable
->>>>>>> Stashed changes
+  - Pickable
+  - Turret
   layers:
   - Default
   - TransparentFX
@@ -21,7 +17,7 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - Portal
   - 
   - 
   - 
